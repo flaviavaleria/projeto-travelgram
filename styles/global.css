@@ -26,3 +26,23 @@ body {
     color: var(--text-color-secundary);
     background-color: var(--background-color);
 }
+
+a {
+    text-decoration: none;
+    color: inherit; /* inherit significa herdar, por padrão do navegador está azul. Quando fazemos isso, tiramos a cor azul e buscamos a cor do pai dele(body)*/
+}
+
+a:hover { /* ao passar o mouse, teremos uma cor usando uma var*/
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    padding-inline: 32px; /* aplica nos lados */
+    max-width: 1280px;
+    margin-inline: auto; /* só vai mecher nos lados*/
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
+}
