@@ -37,7 +37,7 @@ a:hover { /* ao passar o mouse, teremos uma cor usando uma var*/
     text-decoration: underline;
 }
 
-.container {
+.container { /* vai conter em nivel de projeto*/
     padding-inline: 32px; /* aplica nos lados */
     max-width: 1280px;
     margin-inline: auto; /* só vai mecher nos lados*/
