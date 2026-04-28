@@ -21,7 +21,7 @@ header .container {
   object-fit: cover;
 }
 
-#profile > div { /* primeiro nível de filho div */
+#profile > div { 
   max-width: 384px;
 }
 

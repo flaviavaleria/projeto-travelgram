@@ -1,26 +1,26 @@
 nav {
-    display: flex; /* Elemento fica ao lado do outro*/
-    justify-content: space-between; /* Espaço entre os elementos*/
+    display: flex; 
+    justify-content: space-between; 
     align-items: center;
 
-    line-height: 0; /* tira qualquer espaço extra */
-    padding-block: 20px; /* Vai olhar para o eixo y, em cima e em baixo*/
+    line-height: 0; 
+    padding-block: 20px; 
 }
 
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 24px;  /* soma dos espaços dos elementos*/
+    gap: 24px;  
 
     padding-block: 8px;
 }
 
-nav ul li:last-child img { /* pegue o último filho de li*/
+nav ul li:last-child img { 
     width: 40px;
     height: 40px;
-    object-fit: cover; /* fit: significa encaixe / qual é o encaixe do objeto => cover: vai cobrir todo o espaço que tem ali*/
-    border-radius: 50%; /* arredondamento da borda */
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 
 nav a {
